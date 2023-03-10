@@ -1,14 +1,21 @@
 # hestia-config
 
-This template should help get you started developing with Vue 3 in Vite.
+The Command Creator is my personal side project for a new server installation with the HestiaCP Control Panel. 
+Via the feature selection the generator creates an installation command for the HestiaCP control panel.
 
-## Recommended IDE Setup
+The Command Creator is written in Vue3 with Vite and the oruga-ui theme package.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+**HestiaCP Links**
 
-## Customize configuration
+* [HestiaCP.com](https://hestiacp.com/)
+* [HestiaCP Documentation](https://docs.hestiacp.com/index.html)
+* [HestiaCP Community board](https://forum.hestiacp.com/)
+* [GitHub / HestiaCP](https://www.github.com/hestiacp/hestiacp/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Inspiration
+
+This project was inspired by [github.com/gabizz/hestiacp-scriptline-generator](https://github.com/gabizz/hestiacp-scriptline-generator). A 
+HestiaCP installation command generator written in React.
 
 ## Project Setup
 
@@ -16,14 +23,18 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Development
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Create production build
 
 ```sh
 npm run build
 ```
+
+### Credits
+
+The logo is [owned](https://github.com/hestiacp/hestiacp/#copyright) by the HestiaCP developers.

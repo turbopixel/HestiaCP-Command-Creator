@@ -2,9 +2,9 @@
   <div id="app" class="container">
 
     <!-- nav -->
-    <nav class="navbar is-transparent">
+    <nav class="navbar is-transparent mb-5">
       <div class="navbar-brand">
-        <a class="navbar-item has-text-weight-bold" href="#">HestiaCP&utdot;Command Creator</a>
+        <a class="navbar-item has-text-weight-bold" href="/">HestiaCP&utdot;Command Creator</a>
         <div class="navbar-burger" data-target="navbarExampleTransparentExample">
           <span></span>
           <span></span>
@@ -18,8 +18,8 @@
           <a href="https://docs.hestiacp.com/getting_started.html" class="navbar-item">docs.hestiacp.com</a>
         </div>
         <div class="navbar-end">
-          <a href="https://hestiacp.com/" class="navbar-item">hestiacp.com</a>
-          <a href="https://docs.hestiacp.com/getting_started.html" class="navbar-item">docs.hestiacp.com</a>
+          <a href="https://github.com/turbopixel/HestiaCP-Command-Creator" class="navbar-item">GitHub</a>
+          <a href="https://mastodon.social/@turbopioxel" class="navbar-item">Mastodon</a>
         </div>
       </div>
     </nav>
