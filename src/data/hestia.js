@@ -1,4 +1,9 @@
 export default [
+  {name: " --port", id: "port", param: "--port", desc: "Change Backend Port", standard: true, selected: true, text: '8083', textField: true},
+  {name: " --lang", id: "language", param: "--lang", desc: "ISO 639-1 codes", standard: true, selected: true, text: 'en', textField: true},
+  {name: " --hostname", id: "hostname", param: "--hostname", desc: "Set hostname", standard: false, selected: false, text: '', textField: true},
+  {name: " --email", id: "email", param: "--email", desc: "Set admin email", standard: false, selected: false, text: '', textField: true},
+  {name: " --password", id: "password", param: "--password", desc: "Set admin password", standard: false, selected: false, text: '', textField: true},
   {name: " --apache", id: "apache", param: "--apache", desc: " Install Apache.", standard: true, selected: true},
   {name: " --phpfpm", id: "phpfpm", param: "--phpfpm", desc: "Install PHP-FPM.", standard: true, selected: true},
   {name: " --multiphp", id: "multiphp", param: "--multiphp", desc: " Install Multi-PHP.", standard: true, selected: true},
@@ -16,12 +21,6 @@ export default [
   {name: " --fail2ban", id: "fail2ban", param: "--fail2ban", desc: "Install Fail2ban.", standard: true, selected: true},
   {name: " --quota", id: "quota", param: "--quota", desc: "Filesystem Quota.", standard: false, selected: false},
   {name: " --api", id: "api", param: "--api", desc: "Activate API.", standard: true, selected: true},
-  {name: " --force", id: "force", param: "--force", desc: "Force installation.", standard: false, selected: false},
   {name: " --interactive", id: "interactive", param: "--interactive", desc: "Interactive install.", standard: true, selected: true},
-  {name: " --port", id: "port", param: "--port", desc: "Change Backend Port default: 8083", standard: true, selected: true, text: '8083', textField: true},
-  {name: " --hostname", id: "hostname", param: "--hostname", desc: "Set hostname [text]", standard: false, selected: false, text: '', textField: true},
-  {name: " --email", id: "email", param: "--email", desc: "Set admin email [text]", standard: false, selected: false, text: '', textField: true},
-  {name: " --password", id: "password", param: "--password", desc: "Set admin password [text]", standard: false, selected: false, text: '', textField: true},
-  {name: " --lang", id: "language", param: "--lang", desc: "Default language default: en ( ISO 639-1 codes)", standard: true, selected: true, text: 'en', textField: true},
-  {name: "--with-debs", id: "debs", param: "--with-debs", desc: "Path to Hestia packages (Development only)", standard: false, selected: false, text: '', textField: true},
+  {name: " --force", id: "force", param: "--force", desc: "Force installation.", standard: false, selected: false},
 ];
