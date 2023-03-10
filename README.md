@@ -1,7 +1,8 @@
 # HestiaCP&utdot;Command Creator
 
-The Command Creator is my personal side project for a new server installation with the HestiaCP Control Panel. 
-Via the feature selection the generator creates an installation command for the HestiaCP control panel.
+The Command Creator is [my](https://hemk.es/) personal side project. This generator supports 
+the selection of the required control panel features. The installation command is 
+generated via the selection.
 
 The Command Creator is written in Vue3 with Vite and the oruga-ui theme package.
 
