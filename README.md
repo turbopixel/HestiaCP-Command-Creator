@@ -1,4 +1,4 @@
-# hestia-config
+# HestiaCP&utdot;Command Creator
 
 The Command Creator is my personal side project for a new server installation with the HestiaCP Control Panel. 
 Via the feature selection the generator creates an installation command for the HestiaCP control panel.
